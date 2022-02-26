@@ -1,4 +1,4 @@
-.left {
+.right {
   /* box-sizing: border-box; */
   background-color: aquamarine;
   height: 100vh;
@@ -6,6 +6,6 @@
   align-items: center;
   justify-content: center;
 }
-.left img {
+.right img {
   opacity: 80%;
 }

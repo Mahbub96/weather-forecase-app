@@ -1,4 +1,10 @@
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* width: 70%; */
+  background-color: #eee;
 }
 
 .App {
@@ -57,4 +63,18 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 100px;
+}
+.right {
+  /* box-sizing: border-box; */
+  background-color: aquamarine;
+  height: 80vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  /* width: 60%; */
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.right img {
+  opacity: 80%;
 }
