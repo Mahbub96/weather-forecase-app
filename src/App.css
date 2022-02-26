@@ -41,3 +41,12 @@
   width: 85%;
   margin: 0 auto;
 }
+.float-left {
+  float: left;
+  width: 50%;
+}
+
+.float-right {
+  float: right;
+  width: 50%;
+}

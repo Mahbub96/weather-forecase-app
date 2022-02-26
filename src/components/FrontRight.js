@@ -3,11 +3,11 @@ import DemoWeather from "./DemoWeather";
 const logo =
   "https://www.itl.cat/pngfile/big/322-3226139_flowing-water-png-high-resolution-water-splash-png.png";
 
-function FrontRight() {
+function FrontRight({ ...rest }) {
   return (
-    <>
+    <div {...rest}>
       <div className="header">
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo" height="100px" width="100px" />
         <h3>Dhaka Division,BD</h3>
         <h5>Haze(haze)</h5>
         <p>Temp:30 deg Pressure:101325pa Humidity:80%</p>
@@ -25,7 +25,7 @@ function FrontRight() {
         <DemoWeather />
         <DemoWeather />
       </div>
-    </>
+    </div>
   );
 }
 
